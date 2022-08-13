@@ -10,7 +10,4 @@ highscore = 0
 for score in student_scores:
     if score > highscore:
         highscore = score
-        print(highscore)
-
-    else:
-        continue
+print(highscore)
